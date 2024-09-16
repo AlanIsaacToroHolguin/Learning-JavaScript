@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Questions Game</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="Script.js"></script>
+</head>
+<body onload="Cuentaregresiva()">
+
+    <h2>Responde lo más rápido posible <span id="Cuentaregresiva"></span></h2>
+    
+    <p>¿Cuál es la capital de Noruega?</p>
+    <input type="text" id="respuesta1">
+    <p>¿Cómo se dice "gente" en inglés?</p>
+    <input type="text" id="respuesta2">
+    <p>¿Los valores True y False en programación a qué tipo de dato pertenecen?</p>
+    <input type="text" id="respuesta3">
+    <p>¿Quién es el presidente de España?</p>
+    <input type="text" id="respuesta4">
+    <p>¿Cuál es la madera más usada para construir guitarras?</p>
+    <input type="text" id="respuesta5">
+    <br>
+    <button onclick="finalizar()">Finalizar</button>
+    <button onclick="nuevoIntento()">Volver a intentar</button>
+    
+    <audio id="gameoveraudio" src="negative_beeps-6008.mp3" type="audio/mpeg"></audio>
+
+</body>
+</html>
