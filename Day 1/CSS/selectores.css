@@ -1,0 +1,24 @@
+body{background-color: aquamarine;}
+
+.principal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#informacion{
+    text-align: center;
+}
+
+/*a[href]{background-color: gold;}*/
+
+a[href*=".edu"]{
+    background-color: gold;
+}
+
+
+h1:hover{
+    color: red;
+}
+
+.principal::first-line{
+    background-color: lightgray;
+}
+

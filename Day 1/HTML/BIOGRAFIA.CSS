@@ -1,0 +1,49 @@
+body{
+
+    background-image:url(imgs/wallpaper2.jpg);
+    background-size: 100%;
+    color:whitesmoke
+}
+
+
+p{
+    background-color: aliceblue;
+    color:black
+   
+}
+
+
+
+
+
+.centrar-texto {
+    text-align:center;
+}
+
+#subtitulo{
+    text-decoration: underline;
+}
+#subtitulo::first-letter{
+    font-size:x-large;font-style: italic;
+    font-weight: bold;
+}
+
+.foto{
+    border:2px;border-style:double;border-color:rgb(32, 3, 112);
+}
+.texto-negrita{
+    font-weight: bold;
+}
+
+.texto-cursiva{
+    font-style:italic;
+}
+.menu a[href] {
+    color:white;
+
+}
+.menu a::hover{
+    color:gold;
+    text-decoration:underline
+}
+    

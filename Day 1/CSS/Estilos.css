@@ -1,0 +1,17 @@
+/*h
+1{
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;color:green;
+}
+p{color:chartreuse;border:1px;border-color: black;border-style:solid;}
+*/
+
+p{text-align: center}
+
+
+.comun{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.destacado{background-color: bisque;padding:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+
